@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "server"
+  ],
+  "author": "afei",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "prettier": "^1.17.0"
+  }
+}
