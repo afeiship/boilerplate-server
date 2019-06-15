@@ -4,16 +4,16 @@
   "description": "boilerplate-server-description",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
-  "keywords": [
-    "express",
-    "server"
-  ],
+  "keywords": ["nodemon", "express", "server"],
   "author": "afei",
   "license": "MIT",
   "devDependencies": {
-    "express": "^4.16.4",
     "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.19.1"
   }
 }
